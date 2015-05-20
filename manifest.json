@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "wordsToClipboard",
+  "description": "Put any hard-to-type words to browser clipboard via context menu click.",
+  "version": "1.0",
+  
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+
+  "permissions": ["contextMenus", "clipboardWrite"],
+
+  "icons": { 
+    "16": "icon.png",
+    "48": "icon48.png"
+   },
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  }
+
+}

@@ -1,0 +1,64 @@
+<html>
+<head>
+  <title>
+    wordsToClipboard Settings
+  </title>
+</head>
+
+<body>
+
+  <div style="width:80%; margin:2em auto;text-align:center;font-size:large;">
+    
+    <table style="margin:1em auto;width:50%;">
+      <tr>
+        <td style="text-align:right;padding:0.5em;">
+          new word:
+        </td>
+        <td style="vertical-align:top;padding:0.5em;">
+          <input type="text" id="word"> 
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:right;padding:0.5em;">
+           synonyme:
+           <div style="color:gray;font-size:small;margin-top:0.5em;">optional; good for passwords</div>
+        </td>
+        <td style="vertical-align:top;padding:0.5em;">
+          <input type="text" id="synonyme"> 
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align:top;padding:0.5em;text-align:right;">
+          <button id="reset"><span style="font-size:medium;">reset to defaults</span></button>
+        </td>
+        <td style="vertical-align:top;padding:0.5em;font-size:large;">
+          <button id="add"><span style="font-size:medium;">add to the list</span></button> 
+        </td>
+      </tr>
+
+    </table>
+    
+    <div style="margin:2em auto;text-align:center;" id="currentWords"></div>
+
+    <br>
+    <br>
+    <div style="text-align:left;width:50%;margin:1em auto;font-size:medium;">
+      <ul>
+        <li style="margin:0.5em;">
+          to see hidden word, move mouse over synonyme in the list (do not click!)
+        </li>
+        <li style="margin:0.5em;">
+          to delete from list: just click the word
+        </li>
+        <li style="margin:0.5em;">
+          restart browser for changes to take effect
+        </li>
+      </ul>
+    </div>
+    
+  </div>
+
+<script type="text/javascript" src="settings.js"></script>
+
+</body>
+</html>
